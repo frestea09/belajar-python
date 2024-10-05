@@ -1,0 +1,49 @@
+#belajar variabel 
+ myVariableName = "John" 
+# type of variabel
+variableString = "Hello world"
+variableNumber = 30
+variableFloat = 2.5
+variableTrue = True
+variableList = [1,2,3,4,5,6,7,8,9,10]
+variableTuple = (1,2,3,4,5)
+variableDict = {"firstname" : "ilman", "lastname" : "surya"}
+#operator matematika
+def getAddtion(inputOne, inputTwo):
+    return inputOne + inputTwo
+def getSubtraction(inputOne, inputTwo):
+    return inputOne - inputTwo
+def getMultiplication(inputOne, inputTwo):
+    return inputOne * inputTwo
+def getDivision(inputOne,inputTwo):
+    return inputOne / inputTwo
+def getExponential(inputOne, inputTwo):
+    return inputOne ** inputTwo 
+def getModulo(inputOne, inputTwo):
+    return inputOne % inputTwo
+
+listBilangan = [1,2,3,4,5]
+print(listBilangan)
+print(len(listBilangan))
+# show acces listbilangan
+print(listBilangan[0])
+# edit item list 
+listBilangan[0] = 99
+print(listBilangan)
+print(listBilangan[1:])
+print(listBilangan[:2])
+# add item list 
+listBilangan.append(99)
+print(listBilangan)
+# add list to list
+addBilangan = [9,2,3,5]
+listBilangan.extend(addBilangan)
+print(listBilangan)
+listBilangan.remove(99)
+print(listBilangan)
+# sort list 
+listBilangan.sort()
+print(listBilangan)
+# belajar condition
+for item in listBilangan:
+    print(item)
